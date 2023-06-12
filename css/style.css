@@ -137,7 +137,7 @@ a:hover {
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #dcbaba;
   font-size: 1.1rem;
 }
 
@@ -160,7 +160,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #4c2da0;
   margin: 0 auto;
 }
 
@@ -173,6 +173,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  color: #dcbaba;
 }
 
 .title-left:before {
@@ -685,8 +686,12 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #dfd5d5;
+  color: #dcbaba;
   font-weight: bold;
+}
+
+.skill-text {
+  color: #dcbaba;
 }
 
 .skill-mf .progress {
@@ -769,8 +774,10 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 .bg-style {
-  background: linear-gradient(to bottom, rgb(204, 157, 223), #30137f);
-  color: black;
+  background: #30137f;
+  color: rgb(239, 189, 189);
+  letter-spacing: 7px;
+  font-weight: bold;
   border-radius: 3%;
   box-shadow: 10px 16px 16px rgba( 0, 0, 0, 0.5);
 }
@@ -1273,7 +1280,7 @@ footer .credits a {
 .btn-style {
   background-color: #30137f;
   border: none;
-
+  color: #dcbaba
 
 }
 .btn-style:hover {
@@ -1281,3 +1288,11 @@ footer .credits a {
   border: none;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 } 
+
+.intro-bg {
+  background: linear-gradient(to bottom, black, gray)
+}
+.work-bg {
+  background: linear-gradient(to top, black, gray)
+
+}
